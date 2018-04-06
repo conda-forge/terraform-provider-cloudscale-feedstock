@@ -1,10 +1,10 @@
 {% set provider= "CloudScale" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 
 {% set name = "terraform-provider-" + provider.lower() %}
 {% set x4_plugin = name + '_v' + version + "_x4" %}
 
-{% set sha256 = "6bb42ed29fdbe13f8a63984727143d02dd4eb680b5d1a993f44dbddd0a3409d2" %}
+{% set sha256 = "68afddf2679c0e3c9fff8a411d7153652e421c84ef312bcfa6b679df0b4c322e" %}
 {% set sha256_win32 = "dcdb8a42117ea5156e12f2181d96de3f2627408175bc358b0bc9fb4ddceb7eb6" %}
 {% set sha256_win64 = "b773196651510151f53808059cd9a76732089844f6e5c658ffec768c0d22c942" %}
 
