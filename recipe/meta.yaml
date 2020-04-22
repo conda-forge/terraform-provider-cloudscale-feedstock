@@ -1,6 +1,6 @@
 {% set provider = "CloudScale" %}
 {% set goname = "github.com/terraform-providers/terraform-provider-"+provider.lower() %}
-{% set version = "2.1.1" %}
+{% set version = "2.1.2" %}
 
 {% set name = goname.split('/')[-1] %}
 
@@ -12,7 +12,7 @@ package:
 
 source:
   url: https://{{ goname }}/archive/v{{ version }}.tar.gz
-  sha256: f7f617049e5162b87a42df9564b54c0caebec6a41b5b25d637c0aa9c0a759a51
+  sha256: 9a7b9258c5e7f1ca335a6b3e849c1130ef88b011a4adec64dddb59c335a585d5
 
 
 build:
